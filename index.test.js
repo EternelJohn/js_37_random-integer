@@ -1,8 +1,7 @@
-const calc = require('./index');
 const getRandomInt = require('./index');
 
 test('Функция должна вернуть число', () => {
-	const res = calc(1, 100);
+	const res = getRandomInt(1, 100);
 
 	expect(typeof res).toBe('number');
 });
